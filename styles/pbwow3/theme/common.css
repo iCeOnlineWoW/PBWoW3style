@@ -1,3 +1,11 @@
+/* Definice vlastního fontu */
+/* Pojmenování fontu */
+@font-face	{ font-family: Ubuntu;
+/* Umístění fontu */
+src:	url('/styles/MyInvision/theme/fonts/ubuntu.woff2') format('woff2'),
+		url('/styles/MyInvision/theme/fonts/ubuntu.woff') format('woff');
+			}
+
 /* General Markup Styles
 ---------------------------------------- */
 html {
@@ -16,7 +24,7 @@ h1 {
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Ubuntu, Arial;
     font-size: 3em;
     letter-spacing: -0.05em;
     margin-top: 0.5em;
@@ -317,7 +325,7 @@ ul.linklist .dropdown-up .dropdown {
 .breadcrumbs .crumb:before {
     content: '\f054';
     color: #7C7C7C;
-    font-family: FontAwesome;
+    font-family: Ubuntu, FontAwesome;
     font-size: 0.9em;
     font-weight: normal;
     padding: 0 0.5em;
@@ -326,7 +334,7 @@ ul.linklist .dropdown-up .dropdown {
 
 .breadcrumbs.locked .crumb:last-child:after {
     content: '\f023';
-    font-family: FontAwesome;
+    font-family: Ubuntu, FontAwesome;
     font-size: 13px;
     font-weight: normal;
     vertical-align: middle;
@@ -476,7 +484,7 @@ table.info tbody th {
     padding: 3px;
     text-align: center;
     text-decoration: none;
-    font-family: Verdana,Helvetica,Arial,sans-serif;
+    font-family: Ubuntu, Arial;
 }
 
 .pagination li.page-jump a, .pagination li.next a, .pagination li.previous a {
@@ -486,7 +494,7 @@ table.info tbody th {
 }
 
 .pagination li.page-jump a:after, .pagination li.next a:after, .pagination li.previous a:after {
-    font-family: FontAwesome;
+    font-family: Ubuntu, Arial;
     font-size: 10px;
     font-weight: normal;
     padding: 0;
@@ -498,7 +506,7 @@ table.info tbody th {
     display: inline-block;
     font-size: 0.9em;
     font-weight: normal;
-    font-family: Verdana,Helvetica,Arial,sans-serif;
+    font-family: Ubuntu, Arial;
     line-height: 1.4em;
     text-align: center;
     white-space: nowrap;
@@ -543,7 +551,7 @@ table.info tbody th {
 .phpbb_alert .alert_close:after {
     content: '\f057';
     display: block;
-    font-family: FontAwesome;
+    font-family: Ubuntu, Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 1.8em;
@@ -619,7 +627,7 @@ p.post-notice,
 
 p.post-notice:before {
     content: "";
-    font-family: FontAwesome;
+    font-family: Ubuntu, Arial;
     font-size: 1.4em;
     top: 5px;
     left: 5px;
@@ -643,7 +651,7 @@ p.post-notice.unapproved:before	{ content: "\f0e3"; }
 
 
 .dropdown-extended a.mark_read:before {
-    font-family: FontAwesome;
+    font-family: Ubuntu, Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 1.4em;
@@ -755,7 +763,7 @@ p.post-notice.unapproved:before	{ content: "\f0e3"; }
 }
 
 .forum-blocks a.forumtitle {
-    font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Ubuntu, Arial;
     display: block;
     padding-bottom: 1px;
 }
@@ -766,7 +774,7 @@ p.post-notice.unapproved:before	{ content: "\f0e3"; }
 
 .forum-blocks .forum_link a.forumtitle:after {
     content: "\f08e";
-    font-family: FontAwesome;
+    font-family: Ubuntu, Arial;
     font-size: 0.9em;
     font-weight: normal;
     padding-left: 5px;
