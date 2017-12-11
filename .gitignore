@@ -1,5 +1,3 @@
-/styles/*
-!/styles/pbwow3*/
 *.psd
 *.jpg
 *.jpeg
@@ -7,4 +5,4 @@
 *.webm
 *.ogg
 *.DS_Store
-styles/pbwow3/theme/cs/Thumbs.db
+theme/cs/Thumbs.db

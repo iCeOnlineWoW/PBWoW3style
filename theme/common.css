@@ -15,6 +15,7 @@ html {
 
 body {
     background: #000 url("./images/theme/wod.jpg") no-repeat 49.999% 0;
+	background-attachment: fixed;
     padding: 0;
     overflow-y: scroll;
 }

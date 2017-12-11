@@ -27,7 +27,7 @@
 --------------------------------------------- */
 
 body.pbwow3 {
-	background-attachment: scroll;
+	background-attachment: fixed;
 }
 
 body.pbwow3 .logo {
